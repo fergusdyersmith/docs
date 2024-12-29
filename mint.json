@@ -31,18 +31,6 @@
         "url": "api-reference"
       }
     ],
-    "anchors": [
-      {
-        "name": "Documentation",
-        "icon": "book-open-cover",
-        "url": "https://docs.trax.com"
-      },
-      {
-        "name": "Community",
-        "icon": "slack",
-        "url": "https://community.trax.com"
-      }
-    ],
     "navigation": [
       {
         "group": "Getting Started",
@@ -54,15 +42,21 @@
         "group": "Essential Guides",
         "pages": [
           "essentials/track-management",
-          "essentials/sharing-collaboration",
-          "essentials/analytics-statistics"
+          "essentials/sharing-collaboration"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "essentials/inbox-guide",
+          "essentials/saves-guide",
+          "essentials/sends-guide"
         ]
       },
       {
         "group": "API Reference",
         "pages": [
           "api-reference/track-api",
-          "api-reference/analytics-api",
           "api-reference/sharing-api"
         ]
       }
